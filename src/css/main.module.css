@@ -1,0 +1,36 @@
+.divGridProduct {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.divGridBasket {
+  display: grid;
+  grid-template-columns: 80px 150px 100px 100px;
+}
+
+.itemBasket {
+  align-self: center;
+  justify-self: center;
+}
+
+.divFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgProduct {
+  height: 150px;
+  width: 250px;
+}
+
+.imgBasket {
+  height: 50px;
+  width: 100px;
+  vertical-align: middle;
+}
+
+.button {
+  border-radius: 20px;
+  max-width: 100px;
+}
